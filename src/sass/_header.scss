@@ -1,3 +1,50 @@
 .header {
-  background-color: greenyellow;
+  width: 1360px;
+  display: flex;
 }
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+  color:  white;
+  
+}
+
+.logo__zone {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #28A745;
+}
+
+.navigation {
+  margin-left: auto;
+}
+
+.navigation__list  {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.navigation__item {
+  padding: 32px 0;
+  position: relative;
+}
+.navigation__item:not(:last-child) {
+  margin-right: px;
+}
+
+.navigation__link {
+  text-decoration: none;
+}
+
