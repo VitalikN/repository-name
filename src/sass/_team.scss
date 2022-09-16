@@ -26,5 +26,9 @@
   text-align: center;
 }
 .workers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   list-style: none;
 }
